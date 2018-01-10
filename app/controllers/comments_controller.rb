@@ -15,7 +15,7 @@ class CommentsController < ApplicationController
   # GET /comments/new
   def new
     @comment = Comment.new
-    @todo_items = TodoItems.all
+    @todo_items = TodoItem.all
   end
 
   # GET /comments/1/edit
